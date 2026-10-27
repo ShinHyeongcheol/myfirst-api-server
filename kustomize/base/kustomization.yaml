@@ -6,11 +6,11 @@ namespace: class-5
 labels:
   - pairs:
       skala.io/component: skala-devops
-      skala.io/managed-by: class-5-sk-155
+      skala.io/managed-by: class-5-sk155
     includeSelectors: false
 
 commonAnnotations:
-  skala.io/owner: sk-155
+  skala.io/owner: sk155
   skala.io/registry: skala-registry.skala-ai.com
 
 resources:

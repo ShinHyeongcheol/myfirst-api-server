@@ -11,11 +11,11 @@ patches:
   - path: patch-deployment.yaml
     target:
       kind: Deployment
-      name: sk-155-myfirst-api-server
+      name: sk155-myfirst-api-server
 
 # 이미지 tag만 갱신하고 싶을 때 (standalone kustomize CLI 필요):
 #   cd kustomize/prod && kustomize edit set image \
-#     skala-registry.skala-ai.com/class-5/sk-155-webserver=skala-registry.skala-ai.com/class-5/sk-155-webserver:<NEW_TAG>
+#     skala-registry.skala-ai.com/class-5/sk155-webserver=skala-registry.skala-ai.com/class-5/sk155-webserver:<NEW_TAG>
 images:
-  - name: skala-registry.skala-ai.com/class-5/sk-155-webserver
+  - name: skala-registry.skala-ai.com/class-5/sk155-webserver
     newTag: "1.0"
